@@ -23,7 +23,7 @@ use App\Http\Controllers\Admin\Auth\VerifyEmailController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('admin.welcome');
 });
 
 Route::get('/dashboard', function () {
